@@ -1,0 +1,21 @@
+npm commands
+    npm run test
+    npm run build
+    npm run start
+
+docker commands:
+    docker build -f Dockerfile.dev  .
+    docker run -p 3000:3000 <imagename>
+
+volumn on runtiume
+     docker run -p 3000:3000 -v $(pwd):/app <imageid>
+
+create volume:
+
+
+
+nginx: 
+
+80 is default port for nginx server
+    sudo docker run -p 8080:80  84cebfc5ec63 
+    
